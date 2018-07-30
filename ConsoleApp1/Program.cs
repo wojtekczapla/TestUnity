@@ -61,7 +61,7 @@
 
         static void GetName4()
         {
-            Console.WriteLine("this is main 4!!");
+            Console.WriteLine("this is main 4");
         }
     }
 }
