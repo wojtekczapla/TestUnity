@@ -28,6 +28,8 @@
 
             _instance.GetName += GetName;
             _instance.GetName += GetName2;
+            _instance.GetName += GetName3;
+            _instance.GetName += GetName4;
 
             _instance.TestLogging();
 
@@ -50,6 +52,16 @@
         static void GetName2()
         {
             Console.WriteLine("this is main 2");
+        }
+
+        static void GetName3()
+        {
+            Console.WriteLine("this is main 3");
+        }
+
+        static void GetName4()
+        {
+            Console.WriteLine("this is main 4!!");
         }
     }
 }
