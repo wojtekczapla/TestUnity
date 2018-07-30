@@ -16,6 +16,8 @@
         public void TestLogging()
         {
             logger.Debug("Test message");
+
+            GetName?.Invoke();
         }
     }
 }

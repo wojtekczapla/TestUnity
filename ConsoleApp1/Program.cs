@@ -26,6 +26,9 @@
 
             var _instance = _container.Resolve<Class1>();
 
+            _instance.GetName += GetName;
+            _instance.GetName += GetName2;
+
             _instance.TestLogging();
 
             ITestComponent baranina = _container.Resolve<Baranina>();
@@ -37,6 +40,16 @@
             cielecina.GetName();
 
             Console.ReadLine();
+        }
+
+        static void GetName()
+        {
+            Console.WriteLine("this is main");
+        }
+
+        static void GetName2()
+        {
+            Console.WriteLine("this is main 2");
         }
     }
 }
