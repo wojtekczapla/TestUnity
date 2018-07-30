@@ -17,7 +17,8 @@
         {
             logger.Debug("Test message");
 
-            GetName?.Invoke();
+            if(GetName != null)
+                GetName.Invoke();
         }
     }
 }
