@@ -15,7 +15,7 @@
 
         public void TestLogging()
         {
-            logger.Debug("Test message");
+            logger.Debug("Test message issue");
 
             GetName?.Invoke();
         }
