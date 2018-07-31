@@ -14,7 +14,7 @@ namespace NUnittests
         }
 
         [Test]
-        public void TestMethod2()
+        public void TestMethod3()
         {
             int h = 0;
         }
