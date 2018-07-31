@@ -24,5 +24,11 @@ namespace NUnittests
         {
             int j = 0;
         }
+
+        [Test]
+        public void TestMethod5()
+        {
+            int j = 0;
+        }
     }
 }
