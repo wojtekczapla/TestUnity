@@ -12,5 +12,11 @@ namespace NUnittests
         {
             int h = 0;
         }
+
+        [Test]
+        public void TestMethod2()
+        {
+            int h = 0;
+        }
     }
 }
