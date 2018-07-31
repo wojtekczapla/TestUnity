@@ -10,6 +10,7 @@ namespace NUnittests
         [Test]
         public void TestMethod1()
         {
+            int g = 0;
         }
     }
 }
