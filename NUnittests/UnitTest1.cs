@@ -16,7 +16,7 @@ namespace NUnittests
         [Test]
         public void TestMethod3()
         {
-            int h = 5;
+            int j = 5;
         }
     }
 }
