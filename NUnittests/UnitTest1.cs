@@ -22,7 +22,7 @@ namespace NUnittests
         [Test]
         public void TestMethod4()
         {
-            int h = 0;
+            int j = 0;
         }
     }
 }
